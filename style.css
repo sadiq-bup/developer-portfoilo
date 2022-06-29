@@ -1,0 +1,36 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    color: rgb(32, 138, 6);
+}
+
+.orange {
+    color: rgb(248, 171, 27);
+}
+
+section {
+    display: flex;
+}
+
+.usa {
+    width: 50%;
+}
+
+.usa img {
+    width: 80%;
+}
+
+.button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.banner {
+    background-image: url(images/top-banner.png);
+
+}
