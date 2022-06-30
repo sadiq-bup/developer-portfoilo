@@ -11,11 +11,16 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 30px;
+
+}
+
 .orange {
     color: rgb(248, 171, 27);
 }
 
-section {
+.flex {
     display: flex;
     margin: 50px;
 }
@@ -60,4 +65,37 @@ section {
 
 .dream-big img {
     width: 80%;
+}
+
+.Experiences {
+    width: 50%;
+}
+
+.experiences-item {
+    width: 40%;
+    font-size: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px 10px;
+    box-shadow: 10px 5px 40px grey;
+    border-left: 10px solid;
+
+}
+
+#border-ex {
+    border-image: linear-gradient(blue, cyan)10;
+}
+
+#border-full {
+    border-image: linear-gradient(orange, red)10;
+}
+
+.Last-bg {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+footer {
+    text-align: center;
 }
